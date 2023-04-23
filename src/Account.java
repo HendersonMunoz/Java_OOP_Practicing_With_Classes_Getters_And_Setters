@@ -7,6 +7,16 @@ public class Account {
     private String customerEmail;
     private String customerPhone;
 
+    // Creating a Constructor for the Account class.
+    public Account(String number, double balance, String customerName, String customerEmail, String customerPhone){
+        System.out.println("Calling the Account constructor and giving it the required parameters");
+        this.number = number;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.customerEmail = customerEmail;
+        this.customerPhone = customerPhone;
+    }
+
     // I try to set the functional methods before the Getters and Setters.
     // Even though I generated the Getters and Setters first.
 
